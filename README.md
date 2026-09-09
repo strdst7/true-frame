@@ -17,6 +17,20 @@ Trueframe is a free, browser-based image studio for making AI-generated images f
 - **Batch processing** — apply a fix, preset, or custom look to multiple images and download the results as a ZIP.
 - **Interactive comparisons** — inspect before-and-after results with draggable comparison controls and a detail loupe.
 
+## Tech stack
+
+| Technology | Purpose |
+| --- | --- |
+| HTML5 | Application structure and native file inputs |
+| CSS3 | Responsive layout, visual effects, transitions, and animations |
+| Vanilla JavaScript | Application state, image-processing controls, prompt generation, and batch workflows |
+| Canvas API and `createImageBitmap` | Local pixel processing, resizing, grading, previews, and JPEG exports |
+| File, Clipboard, Blob, and Web Storage APIs | Image import, copy/paste, downloads, saved looks, and prompt history |
+| Python 3 | Build script for embedding optimized image assets into the standalone page |
+| GitHub Actions and GitHub Pages | Continuous deployment and static hosting |
+
+Trueframe has no frontend framework, backend service, database, or runtime package dependencies.
+
 ## Privacy first
 
 Image processing happens locally using browser APIs and canvas operations. Photos are not uploaded to a server, and no account is required. Saved looks and prompt history remain in the browser's local storage.
