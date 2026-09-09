@@ -7,6 +7,8 @@ Trueframe is a free, browser-based image studio for making AI-generated images f
 
 **[Open the live app](https://strdst7.github.io/true-frame/)**
 
+[![Trueframe browser-based AI image studio](docs/assets/trueframe-hero.png)](https://strdst7.github.io/true-frame/)
+
 ## Features
 
 - **Skin Fix** — reduce plastic-looking skin and restore texture, clarity, warmth, and natural contrast.
